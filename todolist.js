@@ -7,5 +7,12 @@ let ToDoList = [];
 function addTask(task){
     ToDoList.push(task);
     console.log ('task ${task} added to the list' );
+                     }
+
+// function to remove my task (not the pop method cause we arnt going to delete our last task everytime )
+
+function removeTask(index) {
+
     
+
 }
