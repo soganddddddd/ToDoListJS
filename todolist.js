@@ -13,6 +13,11 @@ function addTask(task){
 
 function removeTask(index) {
 
-    
+   if (index>=0 && index<ToDoList.length){
+    let remove = ToDoList.splice(index , 1);
+    console.log('Task ${remove} removed from the list')
+   } else{
+    console.log('invalid request')
+   }
 
 }
