@@ -6,5 +6,6 @@ let ToDoList = [];
 
 function addTask(task){
     ToDoList.push(task);
+    console.log ('task ${task} added to the list' );
     
 }
